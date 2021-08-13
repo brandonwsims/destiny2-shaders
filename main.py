@@ -3,7 +3,7 @@ import cv2
 
 if __name__ == '__main__':
     # Open shader
-    shader = cv2.imread('./data/709db956346378cf83720b1ab175abe7.jpg')
+    shader = cv2.imread('./data/f1a6b54cd2e30a808a1dbfe276ee335f.jpg')
     shader = cv2.cvtColor(shader, cv2.COLOR_BGR2RGB)
 
     # Dimensions are 96x96
